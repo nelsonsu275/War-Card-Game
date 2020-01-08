@@ -1,0 +1,24 @@
+War Card Game Project (2 Player Simulation)
+- War Card Game is programmed using python.
+Rules:
+- A deck of cards is shuffled and split into two halves for each player.
+- Each card will have a rank in this ascending order: 2,3,4,5,6,7,8,9,10,J,Q,K,A
+- All suits are disregarded in this game.
+- Each turn, both players will draw a card. The higher rank will win the round and insert
+  both cards under their deck.
+- If both cards drawn are the same rank, a war will begin. Once a war begins, both players
+  draw 3 cards face down. Then, they'll drawn another card to compare. The higher rank of this
+  card will win the round and claim both original cards, all face down cards, and the determining
+  war card. If the war card continues to be the same rank, war will begin again and repeat the 
+  same process.
+- If at any time a player runs out of cards, that player will lose the game. The other player
+  with cards remaining wins the game of War.
+
+war_project0:
+  This project of the war card game is implemented by having turns automatically played out
+  in the console.
+  
+war_project1_GUI:
+  This project of the war card game uses tkinter GUI framework to create a GUI version of
+  the game. The game is played out turn by turn using the draw button and war button.
+  The war button isn't functioning yet when both players draw the same rank card.
