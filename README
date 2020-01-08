@@ -25,3 +25,8 @@ war_project1_GUI:
   This project of the war card game uses tkinter GUI framework to create a GUI version of
   the game. The game is played out turn by turn using the draw button and war button.
   The war button isn't functioning yet when both players draw the same rank card.
+  
+  *This project requires Pillow package to be installed for image resizing and rendering.
+  
+  Command for Pillow installation using pip:
+  python -m pip install Pillow
