@@ -1,10 +1,12 @@
-
+# Player class for initializing player name, stack, and boolean for having cards left
 class Player:
     def __init__(self, name, stack, has_cards):
         self.name = name
         self.stack = stack
         self.has_cards = has_cards
 
+
+# dictionary with card name keys and card rank values
 card_dictionary = {
     "Ace of Spades": 14,
     "King of Spades": 13,
@@ -63,6 +65,7 @@ card_dictionary = {
     "Two of Diamonds": 2,
 }
 
+# dictionary with card name keys and card png paths
 card_images = {
     "Ace of Spades": "png/AS.png",
     "King of Spades": "png/KS.png",
@@ -119,4 +122,11 @@ card_images = {
     "Four of Diamonds": "png/4D.png",
     "Three of Diamonds": "png/3D.png",
     "Two of Diamonds": "png/2D.png",
+
+    "Blue Back": "png/blue_back.png",
+    "Gray Back": "png/gray_back.png",
+    "Green Back": "png/green_back.png",
+    "Purple Back": "png/purple_back.png",
+    "Red Back": "png/red_back.png",
+    "Yellow Back": "png/yellow_back.png"
 }
